@@ -1,5 +1,5 @@
 body {
-	background-image: url("apple.png");
+	background-color: green;
 }
 
 #our-approach {
@@ -13,6 +13,8 @@ body {
 	background-color: purple;
 }
 
-#text {
+#text1 {
 	text-align: right;
 }
+
+

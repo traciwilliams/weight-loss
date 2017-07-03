@@ -15,3 +15,11 @@ function displaynumber(x) {
 	//calform.text1.value = x;
 	calform.text1.value = calform.text1.value + x;
 }
+
+
+var holder = document.getElementById("text1");
+
+function clearnumber() {
+	holder.value = "";
+
+}
