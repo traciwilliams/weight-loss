@@ -21,27 +21,33 @@
 			<h2 class="col-6" id="bmi-calculator">BMI calculator</h2>
 			<div class="col-8" id="calculator">Calculator goes here</div>
 
-			<form>
-				<input type=text name=txt1><br>
-				<input type=button name=btn9 value=9>
-				<input type=button name=btn8 value=8>
-				<input type=button name=btn7 value=7>
-				<input type=button name=addbtn value=+><br>
+			<form name=calform>
+				<input type="text" name="text" id="text1"><br>
+				<input type="button" name="btn9" value="9" onclick="displaynumber(btn9.value)">
+				<input type="button" name="btn8" value="8" onclick="displaynumber(btn8.value)">
+				<input type="button" name="btn7" value="7" onclick="displaynumber(btn7.value)">
+				<input type="button" name="addbtn" value="+" onclick="displaynumber(addbtn.value)">
+				<br>
 
-				<input type=button name=btn6 value=6>
-				<input type=button name=btn5 value=5>
-				<input type=button name=btn4 value=4>
-				<input type=button name=subbtn value=+><br>
+				<input type="button" name="btn6" value="6" onclick="displaynumber(btn6.value)">
+				<input type="button" name="btn5" value="5" onclick="displaynumber(btn5.value)">
+				<input type="button" name="btn4" value="4" onclick="displaynumber(btn4.value)">
+				<input type="button" name="subbtn" value="-" onclick="displaynumber(subbtn.value)">
+				<br>
 				
-				<input type=button name=btn3 value=3>
-				<input type=button name=btn2 value=2>
-				<input type=button name=btn1 value=1>
-				<input type=button name=mulbtn value=*><br>
+				<input type="button" name="btn3" value="3" onclick="displaynumber(btn3.value)">
+				<input type="button" name="btn2" value="2" onclick="displaynumber(btn2.value)">
+				<input type="button" name="btn1" value="1" onclick="displaynumber(btn1.value)">
+				<input type="button" name="mulbtn" value="*" onclick="displaynumber(mulbtn.value)">
+				<br>
 
-				<input type=button name=btn0 value=0>
-				<input type=button name=potbtn value=.>
-				<input type=button name=equbtn value==>
-				<input type=button name=divbtn value=/>
+				<input type="button" name="btn0" value="0" onclick="displaynumber(btn0.value)">
+				<input type="button" name="potbtn" value="." onclick="displaynumber(potbtn.value)">
+
+				<input type="button" name="equbtn" value="=" onclick="text.value=eval(text.value)">
+				
+
+				<input type="button" name="divbtn" value="/" onclick="displaynumber(divbtn.value)">
 
 
 
