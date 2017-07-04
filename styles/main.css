@@ -1,5 +1,5 @@
 body {
-	background-color: green;
+	background-image: url("images/apple.png");
 }
 
 #our-approach {
@@ -10,11 +10,12 @@ body {
 #calform {
 	width: 100%;
 	height: 50px;
-	background-color: purple;
+	
 }
 
 #text1 {
 	text-align: right;
+	font-size: 45px;
 }
 
 

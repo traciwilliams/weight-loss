@@ -20,9 +20,22 @@
 
 		<section>
 			<h2 class="col-6" id="bmi-calculator">BMI calculator</h2>
+			<h3>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</h3>
+			<ul>
+				<li>Enter your weight and height using standard or metric measures.</li>
+				<li>Select "Compute BMI" and your BMI will appear below.</li>
+			</ul>	
+				
+
+			<ul>BMI Categories: 
+				<li>Underweight = <18.5 </li>
+				<li>Normal weight = 18.5–24.9 </li>
+				<li>Overweight = 25–29.9 <
+				<li>Obesity = BMI of 30 or greater	</li>
+			</ul>	
 			<div class="col-8" id="calculator">Calculator goes here</div>
 
-			<form name=calform>
+			<form name="calform">
 				<input type="text" name="text" id="text1"><br>
 				<input type="button" name="btn9" value="9" onclick="displaynumber(btn9.value)">
 				<input type="button" name="btn8" value="8" onclick="displaynumber(btn8.value)">
@@ -52,8 +65,27 @@
 				<input type="button" name="clearBtn" value="clear"  onclick="clearnumber()">
 
 			</form>
-
 		</section>
+
+
+
+
+			<form name="bmiform">
+				<input type="text" name="bmi" id="bmi1"><br>
+				<input type="button" name="btnfeet" value="feet" onclick="displaynumber(btnfeet.value)">
+
+				<input type="button" name="btninches" value="inches" onclick="displaynumber(btninches.value)">
+				<input type="button" name="btnweight" value="weight" onclick="displaynumber(btnweight.value)">
+
+
+
+				<!-- <input type="button" name="equbtn" value="=" onclick=bmi.value=eval(bmi.value)">-->
+				<input type="button" name="bmibtn" value="=" onclick="bmiCal()">
+
+				<input type="button" name="clearBtn" value="clear"  onclick="clearnumber()">
+				
+			</form>	
+				
 
 	</div><!--end of grid div-->
 <script src="scripts/app.js"></script>

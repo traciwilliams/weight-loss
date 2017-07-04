@@ -23,3 +23,12 @@ function clearnumber() {
 	holder.value = "";
 
 }
+
+
+var bmi1 = docutment.getElementById("bmi1");
+
+
+function bmiCal() {
+
+	BMI = (Weight (lbs) / (Height (in))2) x 703 (kg/m2)/(lb/in2).
+}
