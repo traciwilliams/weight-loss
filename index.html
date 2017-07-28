@@ -3,27 +3,56 @@
 <head>
 	<title>Weight Loss Calculator</title>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/myframework.css">
-	<link rel="stylesheet" href="styles/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+
 	<meta name="viewpoint" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/grid.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/ionicons.min.css">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+	
 </head>
 
 <body>
-	<div class="grid">
+	<header>
+		<nav>
+			<div class="row">
+				<ul class="main-nav">
+					<li><a href="#">How It Works</a></li>
+					<li><a href="#">Our Locations</a></li>
+					<li><a href="#">Case Studies</a></li>
+					<li><a href="#">BMI Calculator</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>	
+			</div>
+		</nav>
+
+		<div class="hero-text-box">
+			<h1>Want to lose weight?<br>Join our weight loss program</h1>
+
+			<a href="#" class="btn btn-full">I want to sign up!</a>
+			<a href="#" class="btn btn-ghost">Tell Me More</a>
+		</div>
+
+
+
+	</header>
+	<!-- <div class="grid">
 		<header>
 			<div class="hero-text-box">
 				<h2 id="lose-weight">Lose Weight</h2>
 				<h2 id="our-approach">Our Approach</h2>
 			</div>	
-		</header>
+		</header> -->
 
 		
 
 		<!-- https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm -->
 
-		
+		<!-- 
 		<section>
 			<h2 class="col-6" id="bmi-calculator">BMI calculator</h2>
 			<h3>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</h3>
@@ -71,29 +100,29 @@
 				<input type="button" name="clearBtn" value="clear"  onclick="clearnumber()">
 
 			</form>
-		</section>
+		</section> -->
 
 
 
 
-			<form name="bmiform">
+		<!-- 	<form name="bmiform">
 				<input type="text" name="bmi" id="bmi1"><br>
 				<input type="button" name="btnfeet" value="feet" onclick="displaynumber(btnfeet.value)">
 
 				<input type="button" name="btninches" value="inches" onclick="displaynumber(btninches.value)">
-				<input type="button" name="btnweight" value="weight" onclick="displaynumber(btnweight.value)">
+				<input type="button" name="btnweight" value="weight" onclick="displaynumber(btnweight.value)"> -->
 
 
 
 				<!-- <input type="button" name="equbtn" value="=" onclick=bmi.value=eval(bmi.value)">-->
-				<input type="button" name="bmibtn" value="=" onclick="bmiCal()">
+			<!-- 	<input type="button" name="bmibtn" value="=" onclick="bmiCal()">
 
 				<input type="button" name="clearBtn" value="clear"  onclick="clearnumber()">
 				
-			</form>	
+			</form>	 -->
 				
 
-	</div><!--end of grid div-->
+	<!-- </div> --><!--end of grid div-->
 <script src="scripts/app.js"></script>
 </body>
 </html>

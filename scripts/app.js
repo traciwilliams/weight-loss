@@ -5,30 +5,30 @@ when a button is clicked then the display number fumction is taking the value of
 */
 
 
-window.onload = function() {
-	console.log("weight loss - javascript loaded")
-}
+// window.onload = function() {
+// 	console.log("weight loss - javascript loaded")
+// }
 
-function displaynumber(x) {
+// function displaynumber(x) {
 	//console.log(x);
 	//console.log(calform.text1.value);
 	//calform.text1.value = x;
-	calform.text1.value = calform.text1.value + x;
-}
+// 	calform.text1.value = calform.text1.value + x;
+// }
 
 
-var holder = document.getElementById("text1");
+// var holder = document.getElementById("text1");
 
-function clearnumber() {
-	holder.value = "";
+// function clearnumber() {
+// 	holder.value = "";
 
-}
-
-
-var bmi1 = docutment.getElementById("bmi1");
+// }
 
 
-function bmiCal() {
+// var bmi1 = document.getElementById("bmi1");
 
-	BMI = (Weight (lbs) / (Height (in))2) x 703 (kg/m2)/(lb/in2).
-}
+
+// function bmiCal() {
+
+// 	BMI = (Weight (lbs) / (Height (in))2) x 703 (kg/m2)/(lb/in2).
+// }
