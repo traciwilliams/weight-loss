@@ -27,7 +27,9 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
+h1,
+h2,
+h3 {
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -42,8 +44,18 @@ h1 {
 }
 
 
+h2 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	font-size: 180%;	
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
 
-
+h3 {
+	text-align: center;
+}
 
 /*========================*/
 /*HEADER*/
@@ -103,10 +115,64 @@ header {
 }
 
 
+/*========================*/
+/*LINKS*/
+/*========================*/
+a:link,
+a:visited {
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #e67e22;
+	-webkit-transition: border-bottom 0.2s color 0.2s;
+	transition: border-bottom 0.2s color 0.2s;
+}
 
+a:hover,
+a:active {
+	color: #555;
+	border-bottom: 1px solid transparent;
+}
 
+/*========================*/
+/*BUTTONS*/
+/*========================*/
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	border-radius: 200px;
+	transition: background-color 1s, border 1s, color 1s;
+}
 
+.btn-full:link,
+.btn-full:visited {
+	background-color: #f5e059;
+	border: #f5e059;
+	color: black;
+	margin: 15px;
+}
 
+.btn-ghost:link,
+.btn-ghost:visited {
+	border: 2px solid #f5e059;
+	color: white;
+}
+
+.btn:hover,
+.btn:active {
+	//background-color: #cf6d17;
+	background-color: black;
+	border: 2px solid white;
+	color: rgb(255,0,0);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+	//border: 2px solid #cf6d17;
+	border: 2px solid red;
+	color: #fff;
+}
 
 
 
