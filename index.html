@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="stylesheet" href="styles/grid.css">
 	<link rel="stylesheet" href="styles/main.css">
-	<link rel="stylesheet" href="styles/ionicons.min.css">
-
+	<!-- <link rel="stylesheet" href="styles/ionicons.min.css"> -->
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 	
@@ -22,7 +22,7 @@
 			<div class="row">
 				<ul class="main-nav">
 					<li><a href="#how">How It Works</a></li>
-					<li><a href="#locations">Our Locations</a></li>
+					<!-- <li><a href="#locations">Our Locations</a></li> -->
 					<li><a href="#case-studies">Testimonials</a></li>
 					<li><a href="#calculator">BMI Calculator</a></li>
 					<li><a href="#contact-us">Contact Us</a></li>
@@ -33,8 +33,8 @@
 		<div class="hero-text-box">
 			<h1>Want to lose weight?<br>Join our weight loss program</h1>
 
-			<a href="#" class="btn btn-full">Sign Up Here</a>
-			<a href="#" class="btn btn-ghost">Tell Me More</a>
+			<a href="#contact-us" class="btn btn-full">Sign Up Here</a>
+			<a href="#how" class="btn btn-ghost">Tell Me More</a>
 		</div>
 	</header>
 
@@ -69,11 +69,11 @@
 
 
 
-	<section class="location-section" id="locations">
+	<!-- <section class="location-section" id="locations">
 		<div class="row">
 			<h2>Current Locations</h2>
 		</div>
-	</section>
+	</section> -->
 	
 
 
@@ -209,102 +209,30 @@
 
 
 
-	<footer>Copyright &copy 2017, Traci Williams. All rights reserved.</footer>
+	<footer>
+	<div class="row">
+		<div class="col span-1-of-2">
+			<ul class="footer-nav">
+				<li><a href="#how">How It Works</a></li>
+					<!-- <li><a href="#locations">Our Locations</a></li> -->
+				<li><a href="#case-studies">Testimonials</a></li>
+				<li><a href="#calculator">BMI Calculator</a></li>
+				<li><a href="#contact-us">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="col span-1-of-2">
+			<ul class="social-links">
+				<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+				<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+				<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+			</ul>
+		</div>	
+	</div>
+	</div>
+	<div class="row"><p>Copyright &copy 2017, Traci Williams. All rights reserved.</p>
+	</div>	
 
-
-
-
-
-
-
-
-
-
-
-
-	<!-- <div class="grid">
-		<header>
-			<div class="hero-text-box">
-				<h2 id="lose-weight">Lose Weight</h2>
-				<h2 id="our-approach">Our Approach</h2>
-			</div>	
-		</header> -->
-
-		
-
-		<!-- https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm -->
-
-		<!-- 
-		<section>
-			<h2 class="col-6" id="bmi-calculator">BMI calculator</h2>
-			<h3>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</h3>
-			<ul>
-				<li>Enter your weight and height using standard or metric measures.</li>
-				<li>Select "Compute BMI" and your BMI will appear below.</li>
-			</ul>	
-				
-
-			<ul>BMI Categories: 
-				<li>Underweight = <18.5 </li>
-				<li>Normal weight = 18.5–24.9 </li>
-				<li>Overweight = 25–29.9 <
-				<li>Obesity = BMI of 30 or greater	</li>
-			</ul>	
-			<div class="col-8" id="calculator">Calculator goes here</div>
-
-			<form name="calform">
-				<input type="text" name="text" id="text1"><br>
-				<input type="button" name="btn9" value="9" onclick="displaynumber(btn9.value)">
-				<input type="button" name="btn8" value="8" onclick="displaynumber(btn8.value)">
-				<input type="button" name="btn7" value="7" onclick="displaynumber(btn7.value)">
-				<input type="button" name="addbtn" value="+" onclick="displaynumber(addbtn.value)">
-				<br>
-
-				<input type="button" name="btn6" value="6" onclick="displaynumber(btn6.value)">
-				<input type="button" name="btn5" value="5" onclick="displaynumber(btn5.value)">
-				<input type="button" name="btn4" value="4" onclick="displaynumber(btn4.value)">
-				<input type="button" name="subbtn" value="-" onclick="displaynumber(subbtn.value)">
-				<br>
-				
-				<input type="button" name="btn3" value="3" onclick="displaynumber(btn3.value)">
-				<input type="button" name="btn2" value="2" onclick="displaynumber(btn2.value)">
-				<input type="button" name="btn1" value="1" onclick="displaynumber(btn1.value)">
-				<input type="button" name="mulbtn" value="*" onclick="displaynumber(mulbtn.value)">
-				<br>
-
-				<input type="button" name="btn0" value="0" onclick="displaynumber(btn0.value)">
-				<input type="button" name="potbtn" value="." onclick="displaynumber(potbtn.value)">
-
-				<input type="button" name="equbtn" value="=" onclick="text.value=eval(text.value)">
-				
-
-				<input type="button" name="divbtn" value="/" onclick="displaynumber(divbtn.value)"><br>
-				<input type="button" name="clearBtn" value="clear"  onclick="clearnumber()">
-
-			</form>
-		</section> -->
-
-
-
-
-		<!-- 	<form name="bmiform">
-				<input type="text" name="bmi" id="bmi1"><br>
-				<input type="button" name="btnfeet" value="feet" onclick="displaynumber(btnfeet.value)">
-
-				<input type="button" name="btninches" value="inches" onclick="displaynumber(btninches.value)">
-				<input type="button" name="btnweight" value="weight" onclick="displaynumber(btnweight.value)"> -->
-
-
-
-				<!-- <input type="button" name="equbtn" value="=" onclick=bmi.value=eval(bmi.value)">-->
-			<!-- 	<input type="button" name="bmibtn" value="=" onclick="bmiCal()">
-
-				<input type="button" name="clearBtn" value="clear"  onclick="clearnumber()">
-				
-			</form>	 -->
-				
-
-	<!-- </div> --><!--end of grid div-->
+</footer>	
 <script src="scripts/app.js"></script>
 </body>
 </html>
