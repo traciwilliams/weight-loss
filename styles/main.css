@@ -46,7 +46,7 @@ h1 {
 
 h2 {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 	font-size: 180%;	
 	word-spacing: 4px;
@@ -207,13 +207,32 @@ a:active {
 /*CASE STUDIES*/
 /*========================*/
 
-.toast-section {
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/glasses2.jpg);
+.case-studies-section {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/patrick-hendry-stretch.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	height: 50vh;
+	height: 100vh;
 
 }
+
+blockquote {
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 40px;
+}
+
+
+ blockquote:before {
+ 	content:"\201C";
+ 	font-size: 500%;
+ 	display: block;
+ 	position: absolute;
+ 	top: -5px;
+ 	left: -3px;
+ }
+
 
 /*========================*/
 /*BMI CALCULATOR*/
@@ -233,6 +252,9 @@ form {
 	padding: 20px 20px 20px 180px;
 }
 
+/*========================*/
+/*FOOTER*/
+/*========================*/
 
 
 
