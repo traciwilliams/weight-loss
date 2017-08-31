@@ -244,28 +244,45 @@ blockquote {
 /*========================*/
 /*BMI CALCULATOR*/
 /*========================*/
+// .calculator-section {
+// 	background-image: url(images/calculator.png);
+// }
+
+input {
+	padding-bottom: 10px;
+	margin: 0;
+	width: 23%;
+}
+
+
+
+
 
 
 /*========================*/
 /*CONTACT US*/
 /*========================*/
-.contact-us-section {
+.contact-us-section {	
 	background-color: #fbb;
 	background-color: #a00;
 	background-color: #fdd;
+	background-color: #fefaed;
 }
 
 
-form {
-	background-color: #eee;
-}
+// form {
+// 	background-color: #eee;
+// }
 
 .contact-form {
 	width: 75%;
 	margin: 0 auto;
 	padding: 20px 20px 20px 180px;
 }
-
+#name,
+#email {
+	width: 100%;
+}
 
 
 /*========================*/
